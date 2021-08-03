@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #313131;
+}
+.slider{
+    width: 800px;
+    height: 400px;
+    background: url(1.jpg);
+    background-size: 800px 400px;
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
+@keyframes slide {
+    25%{
+        background: url(1.jpg);
+        background-size: 800px 400px;
+    }
+    50%{
+        background: url(2.jpg);
+        background-size: 800px 400px;
+    }
+    75%{
+        background: url(3.jpg);
+        background-size: 800px 400px;
+    }
+    100%{
+        background: url(4.jpg);
+        background-size: 800px 400px;
+    }
+}
