@@ -29,3 +29,6 @@ body{
         background-size: 800px 400px;
     }
 }
+.slider:hover{
+    animation-play-state: paused;
+}
